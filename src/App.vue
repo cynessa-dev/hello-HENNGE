@@ -39,7 +39,7 @@
         <section id="introduction">
             <h2>Who I am</h2>
             <p>
-                Hi, there! Thanks for checking this blog out. I hope this will help you to get to know me better, and have some laughs 😆. Do note that this will be a casual blog, as I believe that I can express myself better that way without thinking about formal words, just focusing on storytelling.
+                Hi, there! Thanks for checking this blog out. I hope this will help you to get to know me better, and have some laughs 😆. Do note that this will be a casual blog, as I believe that I can express myself better this way without thinking about formal words, just focusing on storytelling.
             </p>
             <p>
                 A little about myself: I am a graduating student of Information Technology from a public university in Nueva Ecija, Philippines called Nueva Ecija University of Science and Technology. Quite a long name, ain't it? Before I met HENNGE, I was already in love with Japan. The culture, the environment, the opportunities. It was just perfect!
@@ -51,7 +51,7 @@
                 It was a long time ago, about 5 years ago as of writing this, I got exposed with vlogs in Japan (good and bad) on how life was in there. At this point of time, I was already enjoying a lot of animes and Japanese musics, so it was such an interesting topic for me. Although my initial drive was to get fully-immersed with Japanese culture (it still is the major influence to me), my love for technology was just as great.
             </p>
             <p>
-                It's easy to say that "I love coding ❤️", but one thing I can say is that: Nobody in my high school stayed with coding except me. It was just fascinating. I didn't even know I had it in me. The joy of being given a problem and being able to solve it was just fun!
+                It's easy to say that "I love coding ❤️", but one thing I can say is that: Nobody in my high school stayed with coding except me. It was just fascinating. I didn't even know I had it in me. The joy of being given a problem and being able to solve it was just fun! Every error was another learning opportunity.
             </p>
             <p>
                 With my interest in technology and in Japan, the two naturally converges. So, why Japan? It's simple, Japan has the perfect environment for me to grow and learn. Getting opportunities in Japan, immersing myself in their, and enjoying my hobbies. Those were my goals.
@@ -60,7 +60,7 @@
         <section id="training-arc">
             <h2>The Training Arc</h2>
             <p>
-                During my free time, I would study Japanese from online resources. Though I can't say that I am fluent with it now because I am having some trouble with Kanji. But, it was definitely worth as I can now chat with other Japanese (just a bit).
+                During my free time, I would study Japanese from online resources. Though I can't say that I am fluent with it now because I am having some trouble with Kanji. But, it was definitely worth it as I can now chat with other Japanese (just a bit).
             </p>
             <p>
                 During my first year in the university, my seniors greeted me and showed me more cool technologies! They even managed to get me into their community called "Code Wizards", where I became the Vice President in later years. They were the ones who kept pushing me to go beyond my limits, and well, they succeeded! 😅
