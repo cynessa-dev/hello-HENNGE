@@ -1,42 +1,20 @@
 # hello-HENNGE
 
-This template should help get you started developing with Vue 3 in Vite.
+I hope you are doing well! You might be wondering what is in this repository, so to make it short, it's my **Application Blog**.
 
-## Recommended IDE Setup
+I like to call it that way because it's a casual and interactive form of application, plus it contains **my journey** from my pursuit of Japan to coming to your doorstop and knocking on your hearts.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The repository is public so that you can check out the source code, if you want. And, with that said, this `README.md` can now state technical stuffs!
 
-## Recommended Browser Setup
+## Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+This project will be my **first Vue project**, so it will be a little messy, but I would like to learn more about Vue. The following are the Tech Stack used in this project:
 
-## Type Support for `.vue` Imports in TS
+- Vue
+- Tailwind CSS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+<br />
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+_<p align="center">Made with ❤️ by [Christian Mamplata](https://www.linkedin.com/in/christian-mamplata/)</p>_
