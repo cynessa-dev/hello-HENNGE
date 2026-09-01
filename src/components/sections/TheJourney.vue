@@ -53,9 +53,12 @@
     </p>
     <ImageContainer :images="suiImages" caption="Joined a SUI Blockchain Workshop" />
     <p>
-      Did I failed because of bad code? Maybe because I didn't have enough projects and experience?
-      I didn't know at that time. But one thing that I do know, I had to keep moving. Everytime I
-      reached a milestone, I would kept looking at my past submission, trying to see where I lacked.
+      I kept wondering, did I failed because of bad code? Maybe because I didn't have enough
+      projects and experiences? I didn't know at that time. But one thing that I do know, I had to
+      keep moving. Everytime I reached a milestone, I would kept looking at my past submission,
+      trying to see where I lacked. The goal was to keep transforming, and keep improving. I wanted
+      to be the kind of developer that can adapt to any situation, and use that knowledge to help
+      others.
     </p>
     <p>And looking back at it now, I can see clearly why I failed. 😂</p>
     <p>
