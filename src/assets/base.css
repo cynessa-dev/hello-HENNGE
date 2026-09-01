@@ -32,4 +32,10 @@ body {
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
