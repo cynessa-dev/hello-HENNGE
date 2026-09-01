@@ -28,10 +28,12 @@
 
     <h2>Introduction to HENNGE</h2>
     <p>
-      This is where it got interesting. I wanted to be structured. Have a guide to follow. So I
-      thought, since I want to work in Japan, I should check industry standards in there. From there
-      I listed a few Japanese companies that I found interesting. And out of those companies, HENNGE
-      was one of best match for me. They are curious, learn-aholic, and continuously growing.
+      This is where it got interesting. If I wanted to be the kind of developer to try out new
+      things, and use that knowledge to help others, I needed to go out. So I started to search for
+      company that has the exact environment I wanted to be in. And I wanted to be in Japan, I
+      listed a few Japanese companies that I found interesting. And out of those companies, HENNGE
+      was one of best match for me. They are curious, learn-aholic, and continuously growing. Their
+      ability to adapt to the continuous evolution to technology always amazes me.
     </p>
     <p>
       HENNGE's philosophy, "Liberation of Technolgy", is such an interesting mindset! I watched a
