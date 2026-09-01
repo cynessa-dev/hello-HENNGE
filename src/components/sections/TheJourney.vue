@@ -1,4 +1,8 @@
 <script setup lang="ts">
+    import suiPicture from '@/assets/images/journey_0.jpeg';
+    import suiGroupie from '@/assets/images/journey_1.jpeg';
+    import RAITEGroupie from '@/assets/images/journey_2.jpeg';
+    import suiAfter from '@/assets/images/journey_3.jpeg';
 </script>
 
 <template>
@@ -10,6 +14,11 @@
         <p>
             On October 29, 2025. I went in and applied for HENNGE GIP. Long story short, I failed that round. However, that did not stopped me. HENNGE recommended waiting 9-12 months before applying. That timeframe was enough for me to refine myself. 
         </p>
+        <img :src="suiPicture" alt="SUI Picture" />
+        <img :src="suiGroupie" alt="SUI Groupie" />
+        <img :src="suiAfter" alt="SUI After" />
+        <img :src="RAITEGroupie" alt="RAITE Groupie" />
+        <p>Joined a Blockchain Workshops (3 Left) and Hackathon (1 Right)</p>
         <p>
             Did I failed because of bad code? Maybe because I didn't have enough projects and experience? I didn't know at that time. But one thing that I do know, I had to keep moving. Everytime I reached a milestone, I would kept looking at my past submission, trying to see where I lacked.
         </p>
