@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import Navigation from '@/components/ui/Navigation.vue'
+  import Header from '@/components/ui/Header.vue'
 
   import Introduction from '@/components/sections/Introduction.vue'
   import DriveForJapan from '@/components/sections/DriveForJapan.vue'
@@ -12,7 +13,7 @@
 <template>
   <Navigation />
 
-  <header></header>
+  <Header />
 
   <main>
     <div class="m-auto w-1/2">
