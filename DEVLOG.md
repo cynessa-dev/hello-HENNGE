@@ -53,38 +53,38 @@ You know what? I should just layout the key points here so that I won't forget a
 **KEY POINTS**
 
 1. A little introduction about me
-    - What is my name?
-    - What is my current position?
-    - What university do I go to?
-    - What do I want to become in the future?
+   - What is my name?
+   - What is my current position?
+   - What university do I go to?
+   - What do I want to become in the future?
 
 2. Why pursue Japan?
-    - When did it started?
-    - What are my interest that drives me?
-    - Out of all the countries, why Japan? (You can't talk about high technology! USA has high technology as well)
+   - When did it started?
+   - What are my interest that drives me?
+   - Out of all the countries, why Japan? (You can't talk about high technology! USA has high technology as well)
 
 3. What have I been doing to fulfill this dream?
-    - Practicing Japanese for years (Still not fluent though)
-    - Joining Code Wizards (community), (Techno Day competitions [C++, Java, Figma], Being the Vice President of Code Wizards)
-    - Getting stuck at not knowing where to go
+   - Practicing Japanese for years (Still not fluent though)
+   - Joining Code Wizards (community), (Techno Day competitions [C++, Java, Figma], Being the Vice President of Code Wizards)
+   - Getting stuck at not knowing where to go
 
 4. How I came to know of HENNGE?
-    - The solution to my getting stuck by checking industry standard tech stacks and mastering that.
-    - Specifically pinpointed Japanese companies since I am going there
-    - Found HENNGE to be the best company out of the ones I've seen
-    - How HENNGE and I align perfectly in values and culture (Both of us are very hungry to learn, and would like to help others with technology)
-    - How I decided to learn HENNGE's tech stack
+   - The solution to my getting stuck by checking industry standard tech stacks and mastering that.
+   - Specifically pinpointed Japanese companies since I am going there
+   - Found HENNGE to be the best company out of the ones I've seen
+   - How HENNGE and I align perfectly in values and culture (Both of us are very hungry to learn, and would like to help others with technology)
+   - How I decided to learn HENNGE's tech stack
 
 5. My HENNGE Application Journey
-    - Did my first attempt on October 29, 2025. But failed
-    - Learned and spent the time honing coding skills by doing various projects
-    - Kept trying different technologies other than HENNGE's (Laravel, Astro, GSAP, Vercel, Render, PostgreSQL, MongoDB, Docker, Ubuntu, and Fedora)
-    - Talk about how I wish to learn AWS (I even joined a club)
-    - Briefly touch HLM Shuttle Service, FileLab, and KanaDojo
-    - Talk about meeting HENNGE once again
+   - Did my first attempt on October 29, 2025. But failed
+   - Learned and spent the time honing coding skills by doing various projects
+   - Kept trying different technologies other than HENNGE's (Laravel, Astro, GSAP, Vercel, Render, PostgreSQL, MongoDB, Docker, Ubuntu, and Fedora)
+   - Talk about how I wish to learn AWS (I even joined a club)
+   - Briefly touch HLM Shuttle Service, FileLab, and KanaDojo
+   - Talk about meeting HENNGE once again
 
 6. Farewell Words
-    - Talk about my plan for the future
-    - Give the reader a bestbye
+   - Talk about my plan for the future
+   - Give the reader a bestbye
 
 Well, that's pretty much it. Too long? Don't worry, that list will get extremely short soon! So, the way that I will approach this is to dump all of my code for now in `App.vue` then abstract it after I am happy with it. Might as well test that and see how it will go. Well now, Time to code! Goodbye, and see yah!

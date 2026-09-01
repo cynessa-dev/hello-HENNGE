@@ -3,21 +3,21 @@
 
 :root {
   /* BACKGROUND */
-  --bg: #F5F5F5;
+  --bg: #f5f5f5;
 
   /* FOREGROUND */
-  --heading: #3E3E3E;
-  --text: #3E3E3E;
+  --heading: #3e3e3e;
+  --text: #3e3e3e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* BACKGROUND */
-    --bg: #1E1E1E;
+    --bg: #1e1e1e;
 
     /* FOREGROUND */
-    --heading: #E5E5E5;
-    --text: #E5E5E5;
+    --heading: #e5e5e5;
+    --text: #e5e5e5;
   }
 }
 
