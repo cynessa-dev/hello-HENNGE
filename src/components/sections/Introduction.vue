@@ -1,10 +1,10 @@
 <script setup lang="ts">
-    import pictureOfMe from '@/assets/images/intro_0.jpg'
+    import introPresentation from '@/assets/images/sections/introduction/intro_presentation.jpg'
 </script>
 
 <template>
     <section id="introduction">
-        <img :src="pictureOfMe" alt="Picture of me" />
+        <img :src="introPresentation" alt="Introduction Presentation" />
         <p>Me Presenting a Prototype</p>
         <h2>Who I am</h2>
         <p>
