@@ -34,16 +34,3 @@ body {
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
 }
-
-h2 {
-  margin-bottom: 0.25rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--heading);
-}
-
-p {
-  margin-bottom: 2rem;
-  text-align: justify;
-  line-height: 2rem;
-}
