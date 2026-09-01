@@ -10,9 +10,9 @@
 </script>
 
 <template>
-  <header>
-    <Navigation />
-  </header>
+  <Navigation />
+
+  <header></header>
 
   <main>
     <div class="m-auto w-1/2">
