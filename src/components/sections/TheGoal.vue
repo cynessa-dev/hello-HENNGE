@@ -21,7 +21,10 @@
 
 <template>
   <section id="the-goal">
-    <ImageContainer :images="codeWizardsImage" caption="Joined a Hackathon with a Team of 4" />
+    <ImageContainer
+      :images="codeWizardsImage"
+      caption="Discussing Adoption of Emerging Technologies with Code Wizards' Officers"
+    />
 
     <h2>Introduction to HENNGE</h2>
     <p>
@@ -37,10 +40,7 @@
       filling the gap. After that, I just knew I gotta join them.
     </p>
 
-    <ImageContainer
-      :images="hackathonImage"
-      caption="Discussing adaption of emerging tech with Code Wizards"
-    />
+    <ImageContainer :images="hackathonImage" caption="Joined a Hackathon with a Team of 4" />
 
     <p>
       With having the HENNGE path, I wanted to adapt their philosophy. Just like how my seniors
