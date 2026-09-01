@@ -1,8 +1,32 @@
 <script setup lang="ts">
+  import ImageContainer from '@/components/ui/shared/ImageContainer.vue'
+
   import blockchainPresentation from '@/assets/images/sections/training/polkadot_presentation.jpeg'
   import teamBlockchain from '@/assets/images/sections/training/polkadot_team.jpeg'
   import pictureWithHost from '@/assets/images/sections/training/polkadot_awarding.jpeg'
   import figmaCompetition from '@/assets/images/sections/training/figma_competition.jpg'
+
+  const blockchainImages = [
+    {
+      src: blockchainPresentation,
+      alt: 'Blockchain Presentation',
+    },
+    {
+      src: teamBlockchain,
+      alt: 'Team Blockchain',
+    },
+    {
+      src: pictureWithHost,
+      alt: 'Picture with Host',
+    },
+  ]
+
+  const figmaImage = [
+    {
+      src: figmaCompetition,
+      alt: 'Figma Competition',
+    },
+  ]
 </script>
 
 <template>
@@ -19,16 +43,18 @@
       became the Vice President in later years. They were the ones who kept pushing me to go beyond
       my limits, and well, they succeeded! 😅
     </p>
-    <img :src="blockchainPresentation" alt="Blockchain Presentation" />
-    <img :src="teamBlockchain" alt="Team Blockchain" />
-    <img :src="pictureWithHost" alt="Picture with Host" />
+
+    <ImageContainer :images="blockchainImages" caption="Joined a Polkadot Blockchain Workshop" />
+
     <p>First Blockchain Workshop</p>
     <p>
       Because of that, I kept joining competitions whenever I can to keep challenging myself, even
       though most of the time I lose, I still kept on competing. Why? Because I get to learn from
       the best! I get to talk to other contestants and judges, and know their thought process.
     </p>
-    <img :src="figmaCompetition" alt="Figma Competition" />
+
+    <ImageContainer :images="figmaImage" caption="Participated in a Figma Competition" />
+
     <p>Fruition of my Failures</p>
     <p>
       Though, despite all the learning, there was still one problem. I got no direction! Well, I got

@@ -1,12 +1,21 @@
 <script setup lang="ts">
+  import ImageContainer from '@/components/ui/shared/ImageContainer.vue'
+
   import gameDevelopment from '@/assets/images/sections/drive_for_japan/game_dev.webp'
   import gameDemo from '@/assets/videos/game_demo.mp4'
+
+  const image = [
+    {
+      src: gameDevelopment,
+      alt: 'Game Development',
+    },
+  ]
 </script>
 
 <template>
   <section id="drive-for-japan">
-    <img :src="gameDevelopment" alt="Game Development" />
-    <p>Creating a Character for my Video Game Project</p>
+    <ImageContainer :images="image" caption="Creating a Character for my Video Game Project" />
+
     <h2>The Drive for Japan</h2>
     <p>
       It was a long time ago, about 5 years ago as of writing this, I got exposed with vlogs in

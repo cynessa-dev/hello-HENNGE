@@ -1,6 +1,19 @@
 <script setup lang="ts">
+  import ImageContainer from '@/components/ui/shared/ImageContainer.vue'
+
   import iotDiscussion from '@/assets/images/sections/afterwords/iot_discussion.jpg'
   import iotGroupPhoto from '@/assets/images/sections/afterwords/iot_group_photo.jpeg'
+
+  const images = [
+    {
+      src: iotDiscussion,
+      alt: 'IoT Discussion with other Students',
+    },
+    {
+      src: iotGroupPhoto,
+      alt: 'IoT Group Photo',
+    },
+  ]
 </script>
 
 <template>
@@ -16,8 +29,9 @@
       That's why, whatever happens, I will keep on pushing towards HENNGE. If I were to say it in
       code: Every iteration, I increment myself. Or something like that.
     </p>
-    <img :src="iotDiscussion" alt="Afterwords IoT Discussion" />
-    <img :src="iotGroupPhoto" alt="Afterwords IoT Group Photo" />
+
+    <ImageContainer :images="images" caption="Guiding a Research Team with their IoT Project" />
+
     <p>
       Once again! Thank you so much for taking the time to read this. Farewell, and I hope you have
       a great day!

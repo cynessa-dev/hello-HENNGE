@@ -1,11 +1,20 @@
 <script setup lang="ts">
+  import ImageContainer from '@/components/ui/shared/ImageContainer.vue'
+
   import presentation from '@/assets/images/sections/introduction/presentation.jpg'
+
+  const image = [
+    {
+      src: presentation,
+      alt: 'Introduction Presentation',
+    },
+  ]
 </script>
 
 <template>
   <section id="introduction">
-    <img :src="presentation" alt="Introduction Presentation" />
-    <p>Me Presenting a Prototype</p>
+    <ImageContainer :images="image" caption="Me Presenting a Prototype" />
+
     <h2>Who I am</h2>
     <p>
       Hi, there! Thanks for checking this blog out. I hope this will help you to get to know me
