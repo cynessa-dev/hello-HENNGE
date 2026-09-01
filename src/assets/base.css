@@ -6,15 +6,16 @@
   --bg: #f8f8f8;
 
   /* FOREGROUND */
-  --heading: #3e3e3e;
   --text: #222222;
+  --muted: #666666;
 }
 
 /* TOKENS FOR TAILWIND CSS */
 @theme inline {
   --color-background: var(--bg);
-  --color-heading: var(--heading);
+  --color-heading: var(--text);
   --color-text: var(--text);
+  --color-muted: var(--muted);
 }
 
 body {
