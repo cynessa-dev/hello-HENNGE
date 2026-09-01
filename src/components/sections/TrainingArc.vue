@@ -53,9 +53,8 @@
       the best! I get to talk to other contestants and judges, and know their thought process.
     </p>
 
-    <ImageContainer :images="figmaImage" caption="Participated in a Figma Competition" />
+    <ImageContainer :images="figmaImage" caption="Fruition of my Failures" />
 
-    <p>Fruition of my Failures</p>
     <p>
       Though, despite all the learning, there was still one problem. I got no direction! Well, I got
       a goal, but not how to reach that goal. I wanted to have a path to follow. Questions kept
