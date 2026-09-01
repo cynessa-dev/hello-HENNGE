@@ -21,7 +21,7 @@
         class="flex-1 w-full rounded-lg"
       />
     </div>
-    <p class="text-sm">{{ caption }}</p>
+    <p class="text-muted text-sm">{{ caption }}</p>
   </div>
 </template>
 
