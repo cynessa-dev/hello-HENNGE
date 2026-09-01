@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import gameDevelopment from '@/assets/images/sections/drive_for_japan/game_development.webp'
+    import gameDevelopment from '@/assets/images/sections/drive_for_japan/game_dev.webp'
     import gameDemo from '@/assets/videos/game_demo.mp4'
 </script>
 

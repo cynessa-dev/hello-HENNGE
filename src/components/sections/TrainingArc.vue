@@ -1,8 +1,8 @@
 <script setup lang="ts">
-    import blockchainPresentation from '@/assets/images/sections/training/training_polakdot_presentation.jpeg';
-    import teamBlockchain from '@/assets/images/sections/training/training_polkadot_team.jpeg';
-    import pictureWithHost from '@/assets/images/sections/training/training_polkadot_awarding.jpeg';
-    import figmaCompetition from '@/assets/images/sections/training/training_figma_competition.jpg';
+    import blockchainPresentation from '@/assets/images/sections/training/polkadot_presentation.jpeg';
+    import teamBlockchain from '@/assets/images/sections/training/polkadot_team.jpeg';
+    import pictureWithHost from '@/assets/images/sections/training/polkadot_awarding.jpeg';
+    import figmaCompetition from '@/assets/images/sections/training/figma_competition.jpg';
 </script>
 
 <template>
