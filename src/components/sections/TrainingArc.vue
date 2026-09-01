@@ -1,7 +1,8 @@
 <script setup lang="ts">
-    import teamBlockchain from '@/assets/images/training_0.jpeg';
-    import pictureWithHost from '@/assets/images/training_1.jpeg';
-    import figmaCompetition from '@/assets/images/training_2.jpg';
+    import blockchainPresentation from '@/assets/images/training_0.jpeg';
+    import teamBlockchain from '@/assets/images/training_1.jpeg';
+    import pictureWithHost from '@/assets/images/training_2.jpeg';
+    import figmaCompetition from '@/assets/images/training_3.jpg';
 </script>
 
 <template>
@@ -13,6 +14,7 @@
         <p>
             During my first year in the university, my seniors greeted me and showed me more cool technologies! They even managed to get me into their community called "Code Wizards", where I became the Vice President in later years. They were the ones who kept pushing me to go beyond my limits, and well, they succeeded! 😅
         </p>
+        <img :src="blockchainPresentation" alt="Blockchain Presentation" />
         <img :src="teamBlockchain" alt="Team Blockchain" />
         <img :src="pictureWithHost" alt="Picture with Host" />
         <p>First Blockchain Workshop</p>
