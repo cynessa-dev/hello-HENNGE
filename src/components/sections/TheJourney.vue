@@ -1,8 +1,8 @@
 <script setup lang="ts">
-    import journeySuiDuo from '@/assets/images/sections/journey/journey_sui_duo.jpeg';
-    import journeySuiTeam from '@/assets/images/sections/journey/journey_sui_team.jpeg';
-    import journeySuiTeamWithFaculty from '@/assets/images/sections/journey/journey_sui_team_with_faculty.jpeg';
-    import journeyHackathon from '@/assets/images/sections/journey/journey_hackathon_2.jpeg';
+    import suiDuo from '@/assets/images/sections/journey/sui_duo.jpeg';
+    import suiTeam from '@/assets/images/sections/journey/sui_team.jpeg';
+    import suiTeamWithFaculty from '@/assets/images/sections/journey/sui_team_with_faculty.jpeg';
+    import raiteHackathon from '@/assets/images/sections/journey/raite_hackathon.jpeg';
 </script>
 
 <template>
@@ -14,10 +14,10 @@
         <p>
             On October 29, 2025. I went in and applied for HENNGE GIP. Long story short, I failed that round. However, that did not stopped me. HENNGE recommended waiting 9-12 months before applying. That timeframe was enough for me to refine myself. 
         </p>
-        <img :src="journeySuiDuo" alt="SUI Picture" />
-        <img :src="journeySuiTeam" alt="SUI Groupie" />
-        <img :src="journeySuiTeamWithFaculty" alt="SUI After" />
-        <img :src="journeyHackathon" alt="RAITE Groupie" />
+        <img :src="suiDuo" alt="SUI Picture" />
+        <img :src="suiTeam" alt="SUI Groupie" />
+        <img :src="suiTeamWithFaculty" alt="SUI After" />
+        <img :src="raiteHackathon" alt="RAITE Groupie" />
         <p>Joined a Blockchain Workshops (3 Left) and Hackathon (1 Right)</p>
         <p>
             Did I failed because of bad code? Maybe because I didn't have enough projects and experience? I didn't know at that time. But one thing that I do know, I had to keep moving. Everytime I reached a milestone, I would kept looking at my past submission, trying to see where I lacked.

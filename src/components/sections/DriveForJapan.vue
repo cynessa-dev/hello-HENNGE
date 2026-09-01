@@ -1,11 +1,11 @@
 <script setup lang="ts">
-    import driveGameDevelopment from '@/assets/images/sections/drive_for_japan/drive_game_development.webp'
-    import driveGameDemo from '@/assets/videos/drive_game_demo.mp4'
+    import gameDevelopment from '@/assets/images/sections/drive_for_japan/game_development.webp'
+    import gameDemo from '@/assets/videos/game_demo.mp4'
 </script>
 
 <template>
     <section id="drive-for-japan">
-        <img :src="driveGameDevelopment" alt="Drive Game Development" />
+        <img :src="gameDevelopment" alt="Game Development" />
         <p>Creating a Character for my Video Game Project</p>
         <h2>The Drive for Japan</h2>
         <p>
@@ -14,8 +14,8 @@
         <p>
             It's easy to say that "I love coding ❤️", but one thing I can say is that: Nobody in my high school stayed with coding except me. It was just fascinating. I didn't even know I had it in me. The joy of being given a problem and being able to solve it was just fun! Every error was another learning opportunity.
         </p>
-        <video :src="driveGameDemo" autoplay muted loop></video>
-        <p>Drive Game Demo</p>
+        <video :src="gameDemo" autoplay muted loop></video>
+        <p>Game Demo</p>
         <p>
             With my interest in technology and in Japan, the two naturally converges. So, why Japan? It's simple, Japan has the perfect environment for me to grow and learn. Getting opportunities in Japan, immersing myself in their, and enjoying my hobbies. Those were my goals.
         </p>

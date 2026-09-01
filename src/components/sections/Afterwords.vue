@@ -1,6 +1,6 @@
 <script setup lang="ts">
-    import afterwordsIoTDiscussion from '@/assets/images/sections/afterwords/afterwords_iot_discussion.jpg'
-    import afterwordsIoTGroupPhoto from '@/assets/images/sections/afterwords/afterwords_iot_group_photo.jpeg'
+    import iotDiscussion from '@/assets/images/sections/afterwords/iot_discussion.jpg'
+    import iotGroupPhoto from '@/assets/images/sections/afterwords/iot_group_photo.jpeg'
 </script>
 
 <template>
@@ -12,8 +12,8 @@
         <p>
             That's why, whatever happens, I will keep on pushing towards HENNGE. If I were to say it in code: Every iteration, I increment myself. Or something like that.
         </p>
-        <img :src="afterwordsIoTDiscussion" alt="Afterwords IoT Discussion" />
-        <img :src="afterwordsIoTGroupPhoto" alt="Afterwords IoT Group Photo" />
+        <img :src="iotDiscussion" alt="Afterwords IoT Discussion" />
+        <img :src="iotGroupPhoto" alt="Afterwords IoT Group Photo" />
         <p>
             Once again! Thank you so much for taking the time to read this. Farewell, and I hope you have a great day!
         </p>

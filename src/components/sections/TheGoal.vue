@@ -1,11 +1,11 @@
 <script setup lang="ts">
-    import goalCodeWizardsMeeting from '@/assets/images/sections/goal/goal_code_wizards_meeting.jpeg'
-    import goalHackathon from '@/assets/images/sections/goal/goal_hackathon_1.jpg'
+    import codeWizardsMeeting from '@/assets/images/sections/goal/code_wizards_meeting.jpeg'
+    import hackathon from '@/assets/images/sections/goal/hackathon.jpg'
 </script>
 
 <template>
     <section id="the-goal">
-        <img :src="goalHackathon" alt="Hackathon" />
+        <img :src="hackathon" alt="Hackathon" />
         <p>Joined a Hackathon with a Team of 4</p>
         <h2>Introduction to HENNGE</h2>
         <p>
@@ -14,7 +14,7 @@
         <p>
             HENNGE's philosophy, "Liberation of Technolgy", is such an interesting mindset! I watched a video of HENNGE's CEO, Mr. Ogura, explaining that there will always be a gap between technologies and customers because technology keeps evolving, and that they wanted to keep filling the gap. After that, I just knew I gotta join them.
         </p>
-        <img :src="goalCodeWizardsMeeting" alt="Code Wizards" />
+        <img :src="codeWizardsMeeting" alt="Code Wizards" />
         <p>Discussing adaption of emerging tech with Code Wizards</p>
         <p>
             With having the HENNGE path, I wanted to adapt their philosophy. Just like how my seniors helped me to grow. I wanted to do the same with everyone. To build solutions to keep filling the gap!
