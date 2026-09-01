@@ -30,12 +30,28 @@
       me. The joy of being given a problem and being able to solve it was just fun! Every error was
       another learning opportunity.
     </p>
-    <video :src="gameDemo" autoplay muted loop></video>
-    <p>Game Demo</p>
     <p>
-      With my interest in technology and in Japan, the two naturally converges. So, why Japan? It's
-      simple, Japan has the perfect environment for me to grow and learn. Getting opportunities in
-      Japan, immersing myself in their, and enjoying my hobbies. Those were my goals.
+      As our final requirement in high school, I built a video game project called "Java Heroes"
+      using Java. My goal here was to make a game that teaches players about different forms of
+      viruses, and how they behave as this was an issue in my high school. In here, computers
+      classes barely touch on the topic. Then I figured, why not take the opportunity to share
+      knowledge. To my surprise, the presentation was successful and met with positive feedback. The
+      game was then played by ICT Students as part of a cybersecurity awareness program. Was it
+      great a project? Probably not because it was filled with bugs. Was it fun? Absolutely! This
+      project served as a stepping stone for developing my technical skills.
+    </p>
+
+    <div class="flex flex-col items-center">
+      <video :src="gameDemo" class="rounded-lg" autoplay muted loop></video>
+      <p class="text-muted text-sm">Game Demo</p>
+    </div>
+
+    <p>
+      Having realized my talents, I begun to pursue Japan in order to continue my study of
+      technology. Why Japan? As I have said before, Most of my hobbies and interest are in Japan.
+      It's not about technology, economy, or title. It was about the environment where I want to
+      grow in. And I chose Japan because I believe that, apart from learning, I will be able to
+      enjoy the culture I've been eager to experiece.
     </p>
   </section>
 </template>
