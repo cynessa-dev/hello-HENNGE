@@ -1,4 +1,6 @@
 <script setup lang="ts">
+    import mayapyapDiscussion from '@/assets/images/afterwords_0.jpg';
+    import mayapyapGroupie from '@/assets/images/afterwords_1.jpeg';
 </script>
 
 <template>
@@ -10,6 +12,8 @@
         <p>
             That's why, whatever happens, I will keep on pushing towards HENNGE. If I were to say it in code: Every iteration, I increment myself. Or something like that.
         </p>
+        <img :src="mayapyapDiscussion" alt="Mayapyap Discussion" />
+        <img :src="mayapyapGroupie" alt="Mayapyap Groupie" />
         <p>
             Once again! Thank you so much for taking the time to read this. Farewell, and I hope you have a great day!
         </p>
