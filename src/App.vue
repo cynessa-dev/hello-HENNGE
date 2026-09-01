@@ -13,18 +13,18 @@
 <template>
   <Navigation />
 
-  <Header />
+  <div class="m-auto w-1/2">
+    <Header />
 
-  <main>
-    <div class="m-auto w-1/2">
+    <main>
       <Introduction />
       <DriveForJapan />
       <TrainingArc />
       <TheGoal />
       <TheJourney />
       <Afterwords />
-    </div>
-  </main>
+    </main>
+  </div>
 </template>
 
 <style scoped></style>
