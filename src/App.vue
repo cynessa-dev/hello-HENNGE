@@ -15,12 +15,14 @@
   </header>
 
   <main>
-    <Introduction />
-    <DriveForJapan />
-    <TrainingArc />
-    <TheGoal />
-    <TheJourney />
-    <Afterwords />
+    <div class="m-auto w-3/4">
+      <Introduction />
+      <DriveForJapan />
+      <TrainingArc />
+      <TheGoal />
+      <TheJourney />
+      <Afterwords />
+    </div>
   </main>
 </template>
 
