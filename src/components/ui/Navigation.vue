@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <nav class="sticky top-0">
+  <nav class="sticky top-0 bg-background">
     <div class="flex justify-between items-center px-4 py-6">
       <h1 class="font-bold">Hello, HENNGE!</h1>
       <ul class="flex space-x-8">
