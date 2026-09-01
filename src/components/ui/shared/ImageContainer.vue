@@ -11,11 +11,17 @@
 </script>
 
 <template>
-  <div>
-    <div v-for="image in images" :key="image.src">
-      <img :src="image.src" :alt="image.alt" />
+  <div class="flex flex-col items-center space-y-2">
+    <div class="flex flex-wrap gap-4 w-full">
+      <img
+        v-for="image in images"
+        :key="image.src"
+        :src="image.src"
+        :alt="image.alt"
+        class="flex-1 w-full rounded-lg"
+      />
     </div>
-    <p>{{ caption }}</p>
+    <p class="text-sm">{{ caption }}</p>
   </div>
 </template>
 
