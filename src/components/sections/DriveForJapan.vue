@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import ImageContainer from '@/components/ui/shared/ImageContainer.vue'
+  import VideoContainer from '@/components/ui/shared/VideoContainer.vue'
 
   import gameDevelopment from '@/assets/images/sections/drive_for_japan/game_dev.webp'
   import gameDemo from '@/assets/videos/game_demo.mp4'
@@ -10,6 +11,11 @@
       alt: 'Game Development',
     },
   ]
+
+  const video = {
+    src: gameDemo,
+    caption: 'Game Demo',
+  }
 </script>
 
 <template>
@@ -41,10 +47,7 @@
       project served as a stepping stone for developing my technical skills.
     </p>
 
-    <div class="flex flex-col items-center">
-      <video :src="gameDemo" class="rounded-lg" autoplay muted loop></video>
-      <p class="text-muted text-sm">Game Demo</p>
-    </div>
+    <VideoContainer :video="video" />
 
     <p>
       Having realized my talents, I begun to pursue Japan in order to continue my study of
