@@ -3,22 +3,11 @@
 
 :root {
   /* BACKGROUND */
-  --bg: #f5f5f5;
+  --bg: #f8f8f8;
 
   /* FOREGROUND */
   --heading: #3e3e3e;
-  --text: #3e3e3e;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* BACKGROUND */
-    --bg: #1e1e1e;
-
-    /* FOREGROUND */
-    --heading: #e5e5e5;
-    --text: #e5e5e5;
-  }
+  --text: #222222;
 }
 
 /* TOKENS FOR TAILWIND CSS */
