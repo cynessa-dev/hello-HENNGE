@@ -15,7 +15,7 @@
   </header>
 
   <main>
-    <div class="m-auto w-3/4">
+    <div class="m-auto w-1/2">
       <Introduction />
       <DriveForJapan />
       <TrainingArc />
