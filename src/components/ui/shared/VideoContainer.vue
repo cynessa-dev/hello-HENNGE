@@ -12,7 +12,7 @@
 <template>
   <div class="flex flex-col items-center space-y-2">
     <div class="flex flex-wrap gap-4 w-full">
-      <video :src="video.src" class="flex-1 w-full rounded-lg" autoplay muted loop />
+      <video :src="video.src" autoplay muted loop />
     </div>
     <p class="text-muted text-sm">{{ video.caption }}</p>
   </div>
