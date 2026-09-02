@@ -6,8 +6,6 @@
     <div class="flex space-x-2 h-10 text-muted text-sm">
       <p>Christian Mamplata</p>
       <p>·</p>
-      <p>10 min read</p>
-      <p>·</p>
       <p>August 31, 2026</p>
     </div>
   </header>
