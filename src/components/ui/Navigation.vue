@@ -1,10 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import Menu from '@/components/ui/Menu.vue'
+</script>
 
 <template>
   <nav class="sticky top-0 bg-background">
     <div class="flex justify-between items-center px-4 py-6">
       <h1 class="font-bold">Hello, HENNGE!</h1>
-      <ul class="flex space-x-6 text-base font-bold transition-colors">
+      <Menu />
+      <ul class="hidden space-x-6 text-base font-bold transition-colors lg:flex">
         <li>
           <a href="#introduction">Who I am</a>
         </li>
