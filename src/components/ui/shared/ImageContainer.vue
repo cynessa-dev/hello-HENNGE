@@ -12,13 +12,13 @@
 
 <template>
   <div class="flex flex-col items-center space-y-2">
-    <div class="flex flex-wrap gap-4 w-full">
+    <div class="flex flex-wrap justify-center gap-4 w-full">
       <img
         v-for="image in images"
         :key="image.src"
         :src="image.src"
         :alt="image.alt"
-        class="flex-1 w-full rounded-lg"
+        class="flex-1 min-w-xs object-contain"
       />
     </div>
     <p class="text-muted text-sm">{{ caption }}</p>
