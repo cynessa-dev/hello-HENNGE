@@ -15,7 +15,7 @@
     <div class="flex flex-wrap justify-center gap-4 w-full">
       <img v-for="image in images" :key="image.src" :src="image.src" :alt="image.alt" />
     </div>
-    <p class="text-muted text-sm">{{ caption }}</p>
+    <p class="text-muted text-xs md:text-sm">{{ caption }}</p>
   </div>
 </template>
 
