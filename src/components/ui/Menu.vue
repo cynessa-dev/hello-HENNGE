@@ -30,9 +30,9 @@
   }
 
   .bar-1.active {
-    transform: rotate(15deg);
+    transform: rotate(14deg);
   }
   .bar-2.active {
-    transform: rotate(-15deg);
+    transform: rotate(-14deg);
   }
 </style>
