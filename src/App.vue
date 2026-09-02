@@ -14,7 +14,7 @@
 <template>
   <Navigation />
 
-  <div class="m-auto w-1/2">
+  <div class="m-auto px-8 w-full md:w-1/2 md:px-0">
     <Header />
 
     <main>
