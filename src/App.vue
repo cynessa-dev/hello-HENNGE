@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import Navigation from '@/components/ui/Navigation.vue'
   import Header from '@/components/ui/Header.vue'
+  import Footer from '@/components/ui/Footer.vue'
 
   import Introduction from '@/components/sections/Introduction.vue'
   import DriveForJapan from '@/components/sections/DriveForJapan.vue'
@@ -25,6 +26,8 @@
       <Afterwords />
     </main>
   </div>
+
+  <Footer />
 </template>
 
 <style scoped></style>
