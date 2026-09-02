@@ -4,7 +4,7 @@
   <nav class="sticky top-0 bg-background">
     <div class="flex justify-between items-center px-4 py-6">
       <h1 class="font-bold">Hello, HENNGE!</h1>
-      <ul class="flex space-x-8">
+      <ul class="flex space-x-6 text-base font-bold transition-colors">
         <li>
           <a href="#introduction">Who I am</a>
         </li>
@@ -28,4 +28,11 @@
   </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+  a:hover {
+    color: var(--color-muted);
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+</style>
