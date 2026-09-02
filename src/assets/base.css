@@ -18,6 +18,10 @@
   --color-muted: var(--muted);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--bg);
   color: var(--text);
