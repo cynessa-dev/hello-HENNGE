@@ -1,10 +1,18 @@
 <script setup lang="ts">
+  import { ref } from 'vue'
+
   import Menu from '@/components/ui/Menu.vue'
   import NavOverlay from '@/components/ui/NavOverlay.vue'
 
   interface MenuItem {
     section: string
     link: string
+  }
+
+  const toggled = ref(false)
+
+  const handleClick = (isToggled: boolean) => {
+    toggled.value = isToggled
   }
 
   const menuItems: MenuItem[] = [
@@ -39,14 +47,14 @@
   <nav class="sticky top-0 bg-background">
     <div class="flex justify-between items-center px-4 py-6">
       <h1 class="font-bold">Hello, HENNGE!</h1>
-      <Menu />
+      <Menu @click="handleClick" />
       <ul class="hidden space-x-6 text-base font-bold transition-colors lg:flex">
         <li v-for="item in menuItems">
           <a :href="item.link">{{ item.section }}</a>
         </li>
       </ul>
     </div>
-    <NavOverlay :menu-items />
+    <NavOverlay :menu-items :toggled />
   </nav>
 </template>
 
