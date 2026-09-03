@@ -6,11 +6,12 @@
 
   defineProps<{
     menuItems: MenuItem[]
+    toggled: boolean
   }>()
 </script>
 
 <template>
-  <div class="overlay">
+  <div class="overlay" :class="{ active: toggled }">
     <ul class="flex flex-col px-4 py-6 text-base font-bold transition-colors lg:hidden">
       <li v-for="item in menuItems">
         <a :href="item.link">{{ item.section }}</a>
@@ -33,6 +34,7 @@
 
   .overlay {
     position: fixed;
+    display: block;
     opacity: 0;
     margin-top: -1px;
     width: 100%;
@@ -41,6 +43,7 @@
   }
 
   .overlay.active {
+    display: block!;
     opacity: 1;
   }
 </style>
