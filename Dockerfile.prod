@@ -1,15 +1,25 @@
 # Hello, HENNGE! Dockerfile for Production
 
-FROM node:24.20-alpine
+# BUILD STAGE
+FROM node:24.20-alpine AS build
 
 WORKDIR /app
 
-ENV NODE_ENV=production
+# Disables Husky
+ENV HUSKY=0
 
-# Install dependencies
+# Install dependencies to build system
 COPY package.json package-lock.json ./
-RUN npm ci --only=prod
+RUN npm ci
 
 COPY . .
 
 RUN npm run build
+
+
+# PRODUCTION STAGE
+FROM nginx:alpine AS production
+
+EXPOSE 80
+
+COPY --from=build /app/dist /usr/share/nginx/html
