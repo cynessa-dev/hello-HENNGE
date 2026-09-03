@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import Menu from '@/components/ui/Menu.vue'
+  import NavOverlay from '@/components/ui/NavOverlay.vue'
 
   interface MenuItem {
     section: string
@@ -45,6 +46,7 @@
         </li>
       </ul>
     </div>
+    <NavOverlay :menu-items />
   </nav>
 </template>
 
