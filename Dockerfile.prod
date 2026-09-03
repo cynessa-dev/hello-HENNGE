@@ -1,0 +1,15 @@
+# Hello, HENNGE! Dockerfile for Production
+
+FROM node:24.20-alpine
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+# Install dependencies
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY . .
+
+RUN npm run build

@@ -1,0 +1,15 @@
+# Dependencies and Build files
+node_modules/
+dist/
+
+# files for development
+.vscode
+.gitignore
+.prettierrc
+.husky
+--help
+
+# Environment secrets
+.env
+.env.prod
+.env*
