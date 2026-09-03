@@ -1,5 +1,37 @@
 <script setup lang="ts">
   import Menu from '@/components/ui/Menu.vue'
+
+  interface MenuItem {
+    section: string
+    link: string
+  }
+
+  const menuItems: MenuItem[] = [
+    {
+      section: 'Who I am',
+      link: '#introduction',
+    },
+    {
+      section: 'The Drive for Japan',
+      link: '#drive-for-japan',
+    },
+    {
+      section: 'The Training Arc',
+      link: '#training-arc',
+    },
+    {
+      section: 'Introduction to HENNGE',
+      link: '#the-goal',
+    },
+    {
+      section: 'HENNGE Journey',
+      link: '#the-journey',
+    },
+    {
+      section: 'Afterwords',
+      link: '#afterwords',
+    },
+  ]
 </script>
 
 <template>
@@ -8,23 +40,8 @@
       <h1 class="font-bold">Hello, HENNGE!</h1>
       <Menu />
       <ul class="hidden space-x-6 text-base font-bold transition-colors lg:flex">
-        <li>
-          <a href="#introduction">Who I am</a>
-        </li>
-        <li>
-          <a href="#drive-for-japan">The Drive for Japan</a>
-        </li>
-        <li>
-          <a href="#training-arc">The Training Arc</a>
-        </li>
-        <li>
-          <a href="#the-goal">Introduction to HENNGE</a>
-        </li>
-        <li>
-          <a href="#the-journey">HENNGE Journey</a>
-        </li>
-        <li>
-          <a href="#afterwords">Afterwords</a>
+        <li v-for="item in menuItems">
+          <a :href="item.link">{{ item.section }}</a>
         </li>
       </ul>
     </div>
