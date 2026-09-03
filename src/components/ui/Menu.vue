@@ -2,11 +2,19 @@
   import { ref } from 'vue'
 
   const toggled = ref(false)
+
+  // Event for click menu button
+  const event = 'click'
+  const emit = defineEmits([event])
+  const handleClick = () => {
+    toggled.value = !toggled.value
+    emit(event, toggled.value)
+  }
 </script>
 
 <template>
   <button
-    @click="toggled = !toggled"
+    @click="handleClick"
     class="flex flex-col justify-center space-y-2 size-10 aspect-square cursor-pointer lg:hidden"
   >
     <div class="bar-1 menu-bar" :class="{ active: toggled }" />
