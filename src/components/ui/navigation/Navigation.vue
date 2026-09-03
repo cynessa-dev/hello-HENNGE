@@ -1,8 +1,8 @@
 <script setup lang="ts">
   import { ref } from 'vue'
 
-  import Menu from '@/components/ui/Menu.vue'
-  import NavOverlay from '@/components/ui/NavOverlay.vue'
+  import Menu from './Menu.vue'
+  import NavOverlay from './NavOverlay.vue'
 
   interface MenuItem {
     section: string

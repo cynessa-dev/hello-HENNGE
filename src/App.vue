@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Navigation from '@/components/ui/Navigation.vue'
+  import Navigation from '@/components/ui/navigation/Navigation.vue'
   import Header from '@/components/ui/Header.vue'
   import Footer from '@/components/ui/Footer.vue'
 

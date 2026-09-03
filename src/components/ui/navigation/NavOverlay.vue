@@ -43,7 +43,7 @@
   }
 
   .overlay.active {
-    display: block!;
+    display: block;
     opacity: 1;
   }
 </style>
