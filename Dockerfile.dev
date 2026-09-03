@@ -1,0 +1,21 @@
+# Hello, HENNGE! Docker Development File
+# This file is for development purposes with hot reload
+
+FROM node:24.20-alpine
+
+WORKDIR /app
+
+ENV NODE_ENV=development
+
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY . .
+
+EXPOSE 5173
+
+# Expose container's localhost to host machine for devs to access
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+
+# TO RUN DEV:
+# docker run -p 5173:5173 -v ./src:/app/src hello-hennge:dev
