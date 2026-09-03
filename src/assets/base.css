@@ -8,6 +8,7 @@
   /* FOREGROUND */
   --text: #222222;
   --muted: #666666;
+  --border: oklch(0.5103 0 0 / 20%);
 }
 
 /* TOKENS FOR TAILWIND CSS */
@@ -16,6 +17,7 @@
   --color-heading: var(--text);
   --color-text: var(--text);
   --color-muted: var(--muted);
+  --color-border: var(--border);
 }
 
 html {
