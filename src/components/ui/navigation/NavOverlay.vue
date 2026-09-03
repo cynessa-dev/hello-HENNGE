@@ -34,16 +34,18 @@
 
   .overlay {
     position: fixed;
-    display: block;
+    visibility: hidden;
     opacity: 0;
     margin-top: -1px;
     width: 100%;
     background-color: var(--color-background);
-    transition: opacity 200ms linear;
+    transition:
+      visibility 200ms,
+      opacity 200ms linear;
   }
 
   .overlay.active {
-    display: block;
+    visibility: visible;
     opacity: 1;
   }
 </style>
