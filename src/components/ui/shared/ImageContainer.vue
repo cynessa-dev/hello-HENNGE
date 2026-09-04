@@ -1,4 +1,6 @@
 <script setup lang="ts">
+  import { Image } from '@imagekit/vue'
+
   interface Image {
     src: string
     alt?: string
@@ -13,7 +15,7 @@
 <template>
   <div class="flex flex-col items-center space-y-2">
     <div class="flex flex-wrap justify-center gap-4 w-full">
-      <img v-for="image in images" :key="image.src" :src="image.src" :alt="image.alt" />
+      <Image v-for="image in images" :key="image.src" :src="image.src" :alt="image.alt" />
     </div>
     <p class="text-muted text-xs md:text-sm">{{ caption }}</p>
   </div>
