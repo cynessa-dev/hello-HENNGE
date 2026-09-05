@@ -37,3 +37,8 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
