@@ -26,9 +26,10 @@
     <p>
       It was a long time ago, about 5 years as of writing this, I got exposed with vlogs in Japan
       (good and bad) on how life was in there. At this point of time, I was already enjoying a lot
-      of animes and Japanese musics, so it was such an interesting topic for me. Although my initial
-      drive was to get fully-immersed with Japanese culture (it still is the major influence to me),
-      my love for technology was just as great.
+      of animes and Japanese musics, so it was such an interesting topic for me. With that, I got to
+      see the unique cultures of Japan that has helped shaped my personality and career. Eventually,
+      I adapted the mindset of building solutions that people enjoy, and that has helped me get
+      through everything.
     </p>
     <p>
       As our final requirement in high school, I built a video game project called "Java Heroes"
@@ -45,11 +46,10 @@
     <VideoContainer :video="video" />
 
     <p>
-      Having realized my talents, I begun to pursue Japan in order to continue my study of
-      technology. Why Japan? As I have said before, most of my hobbies and interest are in Japan.
-      It's not about technology, economy, or title. It was about the environment where I want to
-      grow in. And I chose Japan because I believe that, apart from learning, I will be able to
-      enjoy the culture I've been eager to experiece.
+      Having realized my talents, I begun to pursue a career in Japan to continue my study of
+      technology. To get onboard this continuous evolution of technology, and be able to contribute
+      to helping people connect with technology was one of my life-long dreams. Being one of the
+      people who fills in the gap that this process creates.
     </p>
   </section>
 </template>
