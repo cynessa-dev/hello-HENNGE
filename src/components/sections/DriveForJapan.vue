@@ -24,17 +24,11 @@
 
     <h2>The Drive for Japan</h2>
     <p>
-      It was a long time ago, about 5 years ago as of writing this, I got exposed with vlogs in
-      Japan (good and bad) on how life was in there. At this point of time, I was already enjoying a
-      lot of animes and Japanese musics, so it was such an interesting topic for me. Although my
-      initial drive was to get fully-immersed with Japanese culture (it still is the major influence
-      to me), my love for technology was just as great.
-    </p>
-    <p>
-      It's easy to say that "I love coding ❤️", but one thing I can say is that: Nobody in my high
-      school stayed with coding except me. It was just fascinating. I didn't even know I had it in
-      me. The joy of being given a problem and being able to solve it was just fun! Every error was
-      another learning opportunity.
+      It was a long time ago, about 5 years as of writing this, I got exposed with vlogs in Japan
+      (good and bad) on how life was in there. At this point of time, I was already enjoying a lot
+      of animes and Japanese musics, so it was such an interesting topic for me. Although my initial
+      drive was to get fully-immersed with Japanese culture (it still is the major influence to me),
+      my love for technology was just as great.
     </p>
     <p>
       As our final requirement in high school, I built a video game project called "Java Heroes"
@@ -43,15 +37,16 @@
       classes barely touch on the topic. Then I figured, why not take the opportunity to share
       knowledge. To my surprise, the presentation was successful and met with positive feedback. The
       game was then played by ICT Students as part of a cybersecurity awareness program. Was it
-      great a project? Probably not because it was filled with bugs. Was it fun? Absolutely! This
-      project served as a stepping stone for developing my technical skills.
+      great a project? Probably not because it was filled with bugs. Was it fun? Absolutely! I have
+      always enjoyed building for others. Whenever I see them enjoying what I built, the
+      satisfaction can't be put to words.
     </p>
 
     <VideoContainer :video="video" />
 
     <p>
       Having realized my talents, I begun to pursue Japan in order to continue my study of
-      technology. Why Japan? As I have said before, Most of my hobbies and interest are in Japan.
+      technology. Why Japan? As I have said before, most of my hobbies and interest are in Japan.
       It's not about technology, economy, or title. It was about the environment where I want to
       grow in. And I chose Japan because I believe that, apart from learning, I will be able to
       enjoy the culture I've been eager to experiece.
