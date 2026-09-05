@@ -29,9 +29,17 @@
       A lot of things has happened to me since my last attempt. One of which was getting hired to
       build a fuel-tracking app for HLM Shuttle Service here in Batangas, Philippines. That was such
       a fun experience, and it was such a great learning opportunity. I get to know system
-      architecture and DevOps early on my student years. The experience reminded me that every
-      failure is a chance for growth, it's like how rain falls, and the grass grows. Problem comes
-      your way, you use it to grow.
+      architecture and DevOps early on my student years.
+    </p>
+    <p>
+      Using that experience, I then went ahead and studied Go, Terraform, and AWS. I got to built my
+      own API Endpoints using the Gin Framework, then Terraform was a smooth IaC experience as I
+      started with Docker. Actually, this Blog has Terraform in it! Then comes AWS. The platform is
+      quite confusing as a first time learner, but with some perseverance and help from my AWS
+      Community, I get to experience to use the S3, ECR, ECS, and Amplify. I would really love to
+      keep learning it without the fear of getting charged. Learning new tools is pretty much
+      getting lost, so that you can find your way. It's confusing, nerve-wracking, and a little
+      scary; but with a little perseverance, you'll eventually get through it.
     </p>
     <p>
       That's why, whatever happens, I will keep on pushing towards HENNGE. If I were to say it in
