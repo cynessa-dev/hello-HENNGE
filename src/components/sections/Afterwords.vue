@@ -26,6 +26,14 @@
       because I wanted to thank them somehow, and show my appreciation for helping me.
     </p>
     <p>
+      A lot of things has happened to me since my last attempt. One of which was getting hired to
+      build a fuel-tracking app for HLM Shuttle Service here in Batangas, Philippines. That was such
+      a fun experience, and it was such a great learning opportunity. I get to know system
+      architecture and DevOps early on my student years. The experience reminded me that every
+      failure is a chance for growth, it's like how rain falls, and the grass grows. Problem comes
+      your way, you use it to grow.
+    </p>
+    <p>
       That's why, whatever happens, I will keep on pushing towards HENNGE. If I were to say it in
       code: Every iteration, I increment myself. Or something like that.
     </p>
