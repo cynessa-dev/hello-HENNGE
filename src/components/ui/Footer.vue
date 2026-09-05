@@ -4,7 +4,7 @@
   <footer class="flex justify-center pt-4 bg-text text-background text-sm">
     <p>
       Made with ❤️ by
-      <a class="underline" href="www.linkedin.com/in/christian-mamplata" target="_blank">
+      <a class="underline" href="https://www.linkedin.com/in/christian-mamplata/" target="_blank">
         Christian Mamplata
       </a>
     </p>
