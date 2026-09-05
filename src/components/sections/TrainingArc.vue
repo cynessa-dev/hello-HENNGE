@@ -56,12 +56,22 @@
       process.
     </p>
 
+    <p>
+      One time, I joined the Figma Competition of the annual Techno Day of our department to learn
+      from the pros on how to design. I was wanting to improve my front-end skills, and when I heard
+      that there will be a Figma Competition, I went in. Student designers and front-end engineers
+      all gathered in the same room was a gold mine of knowledge for me. It was such a memorable
+      event. Knowing where you went wrong is exactly how you're gonna do it right.
+    </p>
+
     <ImageContainer :images="figmaImage" caption="Fruition of my Failures" />
-    With all of that, I quickly realized that technology is rapidly evolving. New tools and
-    frameworks keeps popping out everyday. But, I didn't stopped. I accelerated. Whenever a new
-    technology drops by, I always get my feet wet by trying it out right away! Testing and failing
-    often. And every failure made me even better.
-    <p></p>
+
+    <p>
+      With all of that, I quickly realized that technology is rapidly evolving. New tools and
+      frameworks keeps popping out everyday. But, I didn't stopped. I accelerated. Whenever a new
+      technology drops by, I always get my feet wet by trying it out right away! Testing and failing
+      often. And every failure made me even better.
+    </p>
   </section>
 </template>
 
