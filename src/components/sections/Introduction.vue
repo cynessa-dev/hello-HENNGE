@@ -19,7 +19,7 @@
     <p>
       Hi, there! Thanks for checking this blog out. I hope this will help you to get to know me
       better, and have some laughs 😆. This was made as a stepping stone for learning Vue. Recently,
-      I have been itching to try it out and see how I will be able to use it in future problems,
+      I have been itching to try it out and see how I will be able to use it in future challenges,
       along with learning some new tools to help me out. Additionally, the blog is made to document
       my progress since my first attempt to join HENNGE (Maybe they'll see this too).
     </p>

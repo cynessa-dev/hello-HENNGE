@@ -36,7 +36,7 @@
       With my drive, I started to prepare myself to join HENNGE. I took a look at their stack and
       picked React just to get started learning. Built a few projects and branched out to study some
       more. Trying out new technologies outside of what my university teaches, and using that
-      knowledge to build new solutions to new problems. One such instance was when I was studying
+      knowledge to build new solutions to new challenges. One such instance was when I was studying
       Blockchain technology. After learning its characteristics, I started experimenting with it in
       different sectors. Agriculture, Politics, and even in Tourism! Most of it was over-engineered.
       But one success was developing a prototype of the Philippine National Election using
