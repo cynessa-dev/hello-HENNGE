@@ -10,7 +10,7 @@ ENV NODE_ENV=development
 COPY package.json package-lock.json ./
 RUN npm ci
 
-COPY . .
+COPY --chown=user:app . .
 
 EXPOSE 5173
 

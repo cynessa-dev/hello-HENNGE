@@ -1,0 +1,18 @@
+# Hello, HENNGE! Docker Compose file for development
+# Made to make life easier XD
+# Basically, I don't want to keep remembering my parameters everytime
+# Just a simple `docker compose -f docker-compose.dev.yml up` is enough
+
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    ports:
+      - '5173:5173'
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: ./app/src
+          initial_sync: true
