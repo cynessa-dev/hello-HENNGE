@@ -31,7 +31,6 @@
 
 <template>
   <section id="the-journey">
-    <ImageContainer :images="raiteHackathonImage" caption="Joined a Blockchain Hackathon" />
     <h2>HENNGE Journey</h2>
     <p>
       With my drive, I started to prepare myself to join HENNGE. I took a look at their stack and
@@ -43,15 +42,16 @@
       But one success was developing a prototype of the Philippine National Election using
       Blockchain. It successfully kept votes anonymous and tamper-proof. Additionally, its
       decentralized aspect allows us to prevent any fake results by having multiple nodes to verify.
-      Although, what stops politicians from bribing the nodes? I guess that is a problem for another
-      time. 😅
+      Although, what stops politicians from bribing the people? Hope we'll find out soon.
     </p>
     <p>
-      On October 29, 2025. I went in and applied for HENNGE GIP. Long story short, I failed that
-      round. However, that did not stopped me. HENNGE recommended waiting 9-12 months before
+      Anyway, on October 29, 2025. I went in and applied for HENNGE GIP. Long story short, I failed
+      that round. However, that did not stopped me. HENNGE recommended waiting 9-12 months before
       applying. That timeframe was enough for me to refine myself.
     </p>
+
     <ImageContainer :images="suiImages" caption="Joined a SUI Blockchain Workshop" />
+
     <p>
       I kept wondering, did I failed because of bad code? Maybe because I didn't have enough
       projects and experiences? I didn't know at that time. But one thing that I do know, I had to
@@ -66,6 +66,8 @@
       code. I am truly thankful that I failed that day. Just like Megaman said:
     </p>
     <p>"There's a benefit to losing: You get to learn from your mistakes. — Megamind, 2010"</p>
+
+    <ImageContainer :images="raiteHackathonImage" caption="Joined a Blockchain Hackathon" />
   </section>
 </template>
 
